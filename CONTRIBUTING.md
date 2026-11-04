@@ -11,3 +11,4 @@ Rules:
 - Only list things you've used or read the README of. No paid ads, no dead links.
 - If an entry fits two categories, put it in the main one and add a cross-link in the other.
 - Say so if it sends emails, runs code or spends money.
+- Check it is safe before adding: read the source or its permissions, look for hidden network calls or data collection, and don't add anything you aren't confident in. Listing is not a security guarantee.

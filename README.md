@@ -3,6 +3,8 @@
 A community-maintained list of skills, plugins, MCP servers and rule files for Claude, organised by what you want to do. Each entry says what it is and links to its repo.
 
 > Free or freemium only: no paid-only tools. Contributions are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md). Install steps are left out on purpose: follow each repo's README.
+>
+> **Caution:** entries are not security-audited. Review any skill, plugin or MCP server before installing it, see [Security](#security).
 
 ## Contents
 
@@ -360,7 +362,7 @@ Writing, data & analytics, testing & QA, DevOps, security, documentation, financ
 [↑ Contents](#contents)
 
 ## Security
-Skills and plugins run commands on your machine. Read one before you add it, and take extra care with anything that sends email, posts online or spends money.
+Entries are checked for what they claim to do, but **they are not security-audited or guaranteed safe**. Skills, plugins and MCP servers can run commands, read your files and send data out. Read the source before you install anything, check what permissions it asks for, and take extra care with anything that sends messages, posts online or spends money. Scanners such as [SkillSpector](https://github.com/NVIDIA/SkillSpector) can help, but they don't replace reading it yourself.
 
 
 [↑ Contents](#contents)
