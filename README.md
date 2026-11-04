@@ -1,4 +1,4 @@
-# claude-for-everyone
+# claude-for-everything
 
 A community-maintained list of skills, plugins, MCP servers and rule files for Claude, organised by what you want to do. Each entry says what it is and links to its repo.
 
@@ -17,7 +17,7 @@ A community-maintained list of skills, plugins, MCP servers and rule files for C
 - **[Career](#career)**: [Job Search](#job-search)
 - **[Discovery](#discovery)**: [Skill & Plugin Directories](#skill--plugin-directories)
 - **[Standalone](#standalone)**: [Media Tools](#media-tools) · [Local Models & OCR](#local-models--ocr) · [Apps, Agents & Examples](#apps-agents--examples)
-- **More**: [Planned](#planned-empty) · [Types](#types-used-in-tables) · [Security](#security) · [Contributing](#contributing)
+- **More**: [Types](#types-used-in-tables) · [Security](#security) · [Contributing](#contributing)
 
 
 ## Video
@@ -345,12 +345,6 @@ Full products, separate agents and demo projects. Useful, but you run them yours
 | [mcp-use](https://github.com/mcp-use/mcp-use) | app | TypeScript framework for building MCP servers and MCP apps. |
 | [notebooklm-py](https://github.com/teng-lin/notebooklm-py) | skill | Unofficial Python API, CLI and skill for Google NotebookLM; needs a NotebookLM account. |
 | [whatsapp-mcp](https://github.com/lharries/whatsapp-mcp) | MCP | An MIT-licensed MCP server that connects your personal WhatsApp account to Claude so it can search, read and send messages. Sends messages from your WhatsApp account. |
-
-
-[↑ Contents](#contents)
-
-## Planned (empty)
-Writing, data & analytics, testing & QA, DevOps, security, documentation, finance, education, and more SEO entries.
 
 
 [↑ Contents](#contents)
