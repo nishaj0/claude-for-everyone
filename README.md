@@ -338,6 +338,7 @@ Full products, separate agents and demo projects. Useful, but you run them yours
 | [OpenMausBot](https://github.com/milind-soni/OpenMausBot) | bot | Open-source Grok Bot alternative with a virtual machine the bots can use (Apache-2.0). |
 | [Claude-of-Duty](https://github.com/mshumer/Claude-of-Duty) | example | Demo of a Call of Duty-style first-person shooter in Three.js built from a single prompt (MIT). |
 | [clauding](https://github.com/nishaj0/clauding) | app | Discord Rich Presence for Claude Code and the Claude desktop app: status, model and live token counts. |
+| [craft-anything](https://github.com/storytold/craft-anything) | app | Open-source (MIT/Apache-2.0, early alpha) desktop app and MCP server that studies a website, app or game, then has Claude Code build your own version and check it against the original. |
 | [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | list | 100+ open-source AI agent, agent-skill and RAG app examples, including Claude and MCP ones. |
 | [mcp-use](https://github.com/mcp-use/mcp-use) | app | TypeScript framework for building MCP servers and MCP apps. |
 | [notebooklm-py](https://github.com/teng-lin/notebooklm-py) | skill | Unofficial Python API, CLI and skill for Google NotebookLM; needs a NotebookLM account. |
