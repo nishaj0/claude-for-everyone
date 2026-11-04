@@ -28,6 +28,9 @@ Let an agent cut, caption and assemble video from your footage.
 |---|---|---|
 | [openfilm](https://github.com/openfilm/openfilm) | skill + desktop app | Open-source AI video agent: Claude writes a film as HTML pages with a frame(t) function, and a local browser Studio editor lets you edit and render it (MIT; desktop app available). |
 | [concat](https://github.com/jub0t/concat) | app + MCP server | Free, open-source, local video editor (CapCut alternative) with auto-captions, background removal, 4K export, no watermark, and a built-in MCP server (`concat --mcp`) for AI agents. |
+| [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | skill | An Apache-2.0 Claude Code skill that builds cinematic product promo videos with Remotion from your own screenshots and copy. Remotion may need a paid license for companies. |
+| [OpenMontage](https://github.com/calesthio/OpenMontage) | app | An AGPL-3.0 open-source agentic video production system with 12 pipelines and 100+ tools that turns Claude Code into a video studio. Optional paid API keys; AGPL-3.0. |
+| [ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | MCP | A free MIT-licensed local video editor for coding agents with 42 FFmpeg tools and an MCP server that works with Claude Code. |
 
 ### Motion Graphics
 
@@ -94,6 +97,10 @@ Make agents produce better-looking interfaces.
 | [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | skill | Skill that generates a tailored project design system from searchable databases of UI styles, colour palettes and font pairings, using a reasoning engine over 192 rules. |
 | [taste-skill](https://github.com/Leonxlnx/taste-skill) | skill | Skill that gives the agent an art direction, real credited photos and a real-browser check so the websites and app screens it builds look less generic. |
 | [magic-mcp](https://github.com/21st-dev/magic-mcp) | MCP | Searches React/Tailwind components and generates UI from your editor. Needs a free API key. |
+| [frontend-slides](https://github.com/zarazhangrui/frontend-slides) | plugin | A free Claude Code plugin that generates single-file HTML presentations from scratch or from PowerPoint files. |
+| [garden-skills](https://github.com/ConardLi/garden-skills) | skill | A free MIT-licensed collection of skills for web design, image generation, video and knowledge-base retrieval, tested with Claude Code and Claude.ai. |
+| [hallmark](https://github.com/Nutlope/hallmark) | skill | A free MIT-licensed design skill from Together AI that helps Claude Code build web pages that do not look AI-generated. |
+| [skills](https://github.com/jakubkrehel/skills) | skill | A free MIT-licensed collection of skills for reviewing and building interfaces, covering accessibility, layout, typography, color and writing, installable as a Claude Code plugin. |
 
 ### Diagrams
 
@@ -120,6 +127,7 @@ Teach the agent to build award-style animated sites and interactive 3D.
 | [webgl-animation-skills](https://github.com/iart-ai/webgl-animation-skills) | skill | Skills for WebGL animation: GLSL fragment shaders, Three.js scene animation, and particle systems; installable as a Claude Code plugin marketplace. |
 | [anatomy](https://github.com/wheresryan22/anatomy) | skill | Claude skill that explains an idea by building it as an interactive isometric figure with many small precise parts, in SVG, WebGL or 3D. |
 | [machine-skill](https://github.com/AirsupHQ/machine-skill) | skill | Claude Code skill: `/machine a turbofan jet engine` researches the real machine and builds an interactive 3D physics simulation in one HTML file, plus a film to post. |
+| [blender-mcp](https://github.com/ahujasid/blender-mcp) | MCP | A community MCP server that lets Claude Desktop and Claude Code control Blender 3D. Runs Python inside Blender; telemetry is on by default. |
 
 
 [↑ Contents](#contents)
@@ -128,7 +136,10 @@ Teach the agent to build award-style animated sites and interactive 3D.
 
 ### SEO
 
-No plugin or skill entries yet. Candidates to add: SEO audit, keyword research and content-brief skills.
+| Name | Type | What it does |
+|---|---|---|
+| [claude-seo](https://github.com/AgriciDaniel/claude-seo) | plugin | A free MIT-licensed Claude Code plugin that audits technical SEO, content quality, structured data and AI search readiness. |
+| [marketingskills](https://github.com/coreyhaines31/marketingskills) | skill | A free MIT-licensed collection of marketing skills for Claude Code covering conversion optimization, copywriting, SEO and analytics. |
 
 The standalone [open-seo](#apps-agents--examples) (Semrush/Ahrefs alternative) is an app, not a plugin.
 
@@ -139,6 +150,9 @@ The standalone [open-seo](#apps-agents--examples) (Semrush/Ahrefs alternative) i
 | [instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) | 13 skills | Thirteen free Claude skills for running an Instagram account, including a Reel writer with 26 hook formulas and hook scoring, a niche virality ranker, caption and profile skills; nothing is posted without your approval. |
 | carousel-studio ([guide](https://milleemd.com/guides/instagram-carousel-system/)) | skill (zip) | Skill (download as zip) that interviews you about your style, then renders Instagram carousels as real 1080x1350 PNGs from HTML via a headless browser. |
 | [reddit-automation](https://github.com/flowkit-labs/skills) | skill | Skill that finds Reddit threads where people are shopping for what you sell and drafts helpful replies for you to review and post by hand. |
+| [humanizer](https://github.com/blader/humanizer) | skill | An MIT-licensed skill that rewrites AI-sounding text to read as human, based on Wikipedia's Signs of AI writing guide. |
+| [SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) | skill | A free MIT-licensed skill and Claude Code plugin that makes Claude write in ASD-STE100 Simplified Technical English. |
+| [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) | MCP | An Apache-2.0 MCP server that lets Claude Code search, read and publish on xiaohongshu.com (RedNote), including likes, favorites and comments. Publishes and comments from your account. |
 
 ### Sales Outreach
 
@@ -166,6 +180,8 @@ Add structure to how the agent plans, reviews and tests, so it stops jumping str
 | [everything-claude-code (ECC)](https://github.com/affaan-m/ECC) | plugin | MIT-licensed Claude Code plugin with 71 agents, 314 skills, hooks, rules and memory for planning, testing, review and verification. |
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | skills | Production-grade engineering skills covering define, plan, build, verify, review and ship, driven by nine slash commands such as /spec, /plan and /build. |
 | [planning-with-files](https://github.com/OthmanAdi/planning-with-files) | skill | Skill that keeps task_plan.md, findings.md and progress.md on disk, with hooks that reinject the plan so it survives /clear and context resets. |
+| [beads](https://github.com/gastownhall/beads) | plugin | An open-source distributed graph issue tracker (bd) that gives Claude Code persistent task memory. |
+| [skills](https://github.com/humanlayer/skills) | skill | An MIT-licensed set of Claude Code skills from HumanLayer for research, planning, implementation and pull request workflows. Some skills create pull requests. |
 
 ### Quality & Token Saving
 
@@ -180,6 +196,8 @@ Get better behavior from coding agents and spend fewer tokens or dollars.
 | [codegraph](https://github.com/colbymchenry/codegraph) | MCP server | Local code knowledge graph exposed over MCP that auto-syncs on every file change. |
 | [gemini-mcp-tool](https://github.com/jamubc/gemini-mcp-tool) | MCP server | MCP server that lets Claude call the Gemini CLI to use Gemini's large context window for analyzing big files. |
 | [CodeBurn](https://codeburn.app) | CLI | Free, open-source, local-first tracker of AI coding token usage and cost across 42 tools, broken down by model, project and task. |
+| [SkillSpector](https://github.com/NVIDIA/SkillSpector) | skill | An Apache-2.0 security scanner that checks agent skills, including Claude Code skills, for prompt injection, data exfiltration and supply-chain risks before install. |
+| [context-mode](https://github.com/mksglu/context-mode) | plugin | A free local Claude Code plugin and MCP server that keeps tool output out of the context window using a sandbox and SQLite full-text search. |
 
 
 ### Memory & Context
@@ -194,6 +212,8 @@ Stop the agent forgetting everything between sessions.
 | [codegraph](https://github.com/colbymchenry/codegraph) | MCP server | Local code knowledge graph exposed over MCP that auto-syncs on every file change. |
 | [obsidian-skills](https://github.com/kepano/obsidian-skills) | skills | Agent skills by Obsidian's CEO for working with Obsidian, installable as a Claude Code plugin via the marketplace. |
 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | plugin | Claude Code plugin that analyzes a project with a multi-agent pipeline, builds a knowledge graph of files, functions and dependencies, and offers an interactive dashboard to explore it. |
+| [graphify](https://github.com/Graphify-Labs/graphify) | skill | An open-source /graphify skill for Claude Code that turns code, docs, schemas and PDFs into a queryable knowledge graph. |
+| [mempalace](https://github.com/MemPalace/mempalace) | MCP | A free, local-first memory system that stores conversation history verbatim and retrieves it by semantic search through Claude Code hooks and an MCP server. |
 
 ### Browser & Web Access
 
@@ -264,6 +284,8 @@ Where to find more.
 | [top-claude-code-skills](https://github.com/selan-ai/top-claude-code-skills) | ranking | Daily-updated ranking of the top 15 Claude Code skills by GitHub stars (all time, this week, this month), each described from its own README. |
 | [awesome-claude-code-skills](https://github.com/itgoyo/awesome-claude-code-skills) | list | Curated list of the top 200 GitHub repositories by stars in the Claude Code ecosystem: official tools, agent frameworks, skills, memory systems and MCP servers. |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | list | Large curated list of MCP servers. |
+| [claude-code-templates](https://github.com/davila7/claude-code-templates) | list | An MIT-licensed CLI and catalog of roughly 1,900 installable components for configuring and monitoring Claude Code. |
+| [claude-howto](https://github.com/luongnv89/claude-howto) | list | A free MIT-licensed, example-driven guide to Claude Code with copy-paste templates for slash commands, hooks, subagents and MCP configs. |
 
 **Security:** skills run commands on your machine, so read a skill before you install it.
 
@@ -319,6 +341,7 @@ Full products, separate agents and demo projects. Useful, but you run them yours
 | [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | list | 100+ open-source AI agent, agent-skill and RAG app examples, including Claude and MCP ones. |
 | [mcp-use](https://github.com/mcp-use/mcp-use) | app | TypeScript framework for building MCP servers and MCP apps. |
 | [notebooklm-py](https://github.com/teng-lin/notebooklm-py) | skill | Unofficial Python API, CLI and skill for Google NotebookLM; needs a NotebookLM account. |
+| [whatsapp-mcp](https://github.com/lharries/whatsapp-mcp) | MCP | An MIT-licensed MCP server that connects your personal WhatsApp account to Claude so it can search, read and send messages. Sends messages from your WhatsApp account. |
 
 
 [↑ Contents](#contents)
