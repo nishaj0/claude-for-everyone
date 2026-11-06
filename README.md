@@ -185,6 +185,7 @@ Add structure to how the agent plans, reviews and tests, so it stops jumping str
 | [planning-with-files](https://github.com/OthmanAdi/planning-with-files) | skill | Skill that keeps task_plan.md, findings.md and progress.md on disk, with hooks that reinject the plan so it survives /clear and context resets. |
 | [beads](https://github.com/gastownhall/beads) | plugin | An open-source distributed graph issue tracker (bd) that gives Claude Code persistent task memory. |
 | [skills](https://github.com/humanlayer/skills) | skill | An MIT-licensed set of Claude Code skills from HumanLayer for research, planning, implementation and pull request workflows. Some skills create pull requests. |
+| [skills](https://github.com/slavingia/skills) | plugin | Ten skills based on The Minimalist Entrepreneur that walk you through finding a community, validating an idea, building an MVP, pricing and growing a business. |
 
 ### Quality & Token Saving
 
@@ -217,6 +218,7 @@ Stop the agent forgetting everything between sessions.
 | [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) | plugin | Claude Code plugin that analyzes a project with a multi-agent pipeline, builds a knowledge graph of files, functions and dependencies, and offers an interactive dashboard to explore it. |
 | [graphify](https://github.com/Graphify-Labs/graphify) | skill | An open-source /graphify skill for Claude Code that turns code, docs, schemas and PDFs into a queryable knowledge graph. |
 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | A free, local-first memory system that stores conversation history verbatim and retrieves it by semantic search through Claude Code hooks and an MCP server. |
+| [dbhub](https://github.com/bytebase/dbhub) | MCP | A minimal, token-efficient MCP server that lets Claude explore and query PostgreSQL, MySQL, MariaDB, SQL Server, Oracle and SQLite databases. Runs SQL against the databases you point it at; read-only mode is available. |
 
 ### Browser & Web Access
 
@@ -230,6 +232,7 @@ Let the agent read, search, browse and scrape the web.
 | [obscura](https://github.com/h4ckf0r0day/obscura) | CLI | Open-source headless browser engine written in Rust for AI agents and scraping; runs JavaScript via V8, speaks Chrome DevTools Protocol, and can replace headless Chrome with Puppeteer or Playwright. |
 | [BrowserMCP](https://github.com/BrowserMCP/mcp) | MCP | MCP server plus a Chrome extension that lets Claude control your own browser. |
 | [crawl4ai](https://github.com/unclecode/crawl4ai) | MCP | Open-source web crawler and scraper with a hosted MCP server; the hosted cloud is optional, the core is self-hostable. |
+| [stagehand](https://github.com/browserbase/stagehand) | SDK | MIT-licensed SDK for building browser agents that navigate sites, act on pages and extract data. Needs your own LLM API key (Anthropic for Claude); the Browserbase cloud is optional and paid. |
 
 ### Docs Lookup
 
@@ -308,6 +311,7 @@ Where to find more.
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | list | Large curated list of MCP servers. |
 | [claude-code-templates](https://github.com/davila7/claude-code-templates) | list | An MIT-licensed CLI and catalog of roughly 1,900 installable components for configuring and monitoring Claude Code. |
 | [claude-howto](https://github.com/luongnv89/claude-howto) | list | A free MIT-licensed, example-driven guide to Claude Code with copy-paste templates for slash commands, hooks, subagents and MCP configs. |
+| [awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering) | list | Curated list of patterns and tools for the harness around an AI model: context delivery, tool design, skills and MCP, memory, permissions and verification. Not Claude-only. |
 
 **Security:** skills run commands on your machine, so read a skill before you install it.
 
@@ -365,6 +369,7 @@ Full products, separate agents and demo projects. Useful, but you run them yours
 | [mcp-use](https://github.com/mcp-use/mcp-use) | app | TypeScript framework for building MCP servers and MCP apps. |
 | [notebooklm-py](https://github.com/teng-lin/notebooklm-py) | skill | Unofficial Python API, CLI and skill for Google NotebookLM; needs a NotebookLM account. |
 | [whatsapp-mcp](https://github.com/lharries/whatsapp-mcp) | MCP | An MIT-licensed MCP server that connects your personal WhatsApp account to Claude so it can search, read and send messages. Sends messages from your WhatsApp account. |
+| [cua](https://github.com/trycua/cua) | app | Open-source infrastructure for computer-use agents (desktop-app driver, local VMs, sandboxes), with a Claude Code integration. Freemium: the hosted Spaces app has paid tiers. The agents control desktop apps, so review before running. |
 
 
 [↑ Contents](#contents)
