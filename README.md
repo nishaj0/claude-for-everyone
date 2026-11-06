@@ -363,3 +363,13 @@ Entries are checked for what they claim to do, but **they are not security-audit
 
 ## Contributing
 Add a row to the right section above. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=nishaj0%2Fclaude-for-everything&type=date&releases=&legend=bottom-right">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nishaj0/claude-for-everything&type=date&theme=dark&legend=bottom-right" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=nishaj0/claude-for-everything&type=date&legend=bottom-right" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nishaj0/claude-for-everything&type=date&legend=bottom-right" />
+ </picture>
+</a>
