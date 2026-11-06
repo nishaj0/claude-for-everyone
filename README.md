@@ -376,6 +376,7 @@ Full products, separate agents and demo projects. Useful, but you run them yours
 | [notebooklm-py](https://github.com/teng-lin/notebooklm-py) | skill | Unofficial Python API, CLI and skill for Google NotebookLM; needs a NotebookLM account. |
 | [whatsapp-mcp](https://github.com/lharries/whatsapp-mcp) | MCP | An MIT-licensed MCP server that connects your personal WhatsApp account to Claude so it can search, read and send messages. Sends messages from your WhatsApp account. |
 | [cua](https://github.com/trycua/cua) | app | Open-source infrastructure for computer-use agents (desktop-app driver, local VMs, sandboxes), with a Claude Code integration. Freemium: the hosted Spaces app has paid tiers. The agents control desktop apps, so review before running. |
+| [agent-desktop](https://github.com/vercel-labs/agent-desktop) | CLI | Apache-2.0 CLI from Vercel Labs that lets an AI agent see and operate desktop apps on macOS, Windows and Linux through the accessibility tree. Works with any agent that can run shell commands; it doesn't mention Claude by name. Snapshots can contain private desktop content. |
 
 
 [↑ Contents](#contents)
