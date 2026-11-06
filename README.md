@@ -45,6 +45,7 @@ Code-driven video: the agent writes HTML, GSAP or Canvas and renders it to MP4.
 | [huashu-motion](https://github.com/alchaincyf/huashu-motion) | skill | Skill that makes product launch films from a prompt: the agent writes the animation, composes the score, and opens a browser editor where you click on the picture to request changes (MIT). |
 | [brag](https://github.com/latent-spaces/brag) | skill | Agent skill (/brag, plus a lean /brag-slim) that turns your project into a short launch video with music, motion and share copy; installs as a Claude Code plugin. |
 | [super-video-maker-skill](https://github.com/Bomx/super-video-maker-skill) | skill | End-to-end video production skill: turns an idea, link, screen recording or script into a finished video using HeyGen avatars, AI b-roll, Remotion, HyperFrames, FFmpeg and captions. |
+| [remotion](https://github.com/remotion-dev/remotion) | framework + skills | Make videos programmatically with React, with Agent Skills docs for AI assistants. Free to start, but it has a special licence that needs a paid company licence in some cases, so check it first. |
 
 ### Animation Styles
 
