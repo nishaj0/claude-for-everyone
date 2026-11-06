@@ -187,6 +187,9 @@ Add structure to how the agent plans, reviews and tests, so it stops jumping str
 | [beads](https://github.com/gastownhall/beads) | plugin | An open-source distributed graph issue tracker (bd) that gives Claude Code persistent task memory. |
 | [skills](https://github.com/humanlayer/skills) | skill | An MIT-licensed set of Claude Code skills from HumanLayer for research, planning, implementation and pull request workflows. Some skills create pull requests. |
 | [skills](https://github.com/slavingia/skills) | plugin | Ten skills based on The Minimalist Entrepreneur that walk you through finding a community, validating an idea, building an MVP, pricing and growing a business. |
+| [ruflo](https://github.com/ruvnet/ruflo) | plugin | Agent meta-harness for Claude Code that adds multi-agent swarms, workflows, memory and cost tracking through installable plugins. Large project; some plugins can call cloud agents that cost API money. |
+| [CLI-Anything](https://github.com/HKUDS/CLI-Anything) | plugin | Claude Code plugin marketplace that generates agent-usable command-line interfaces for existing software so Claude can drive it. Runs commands on your machine. |
+| [MCPJungle](https://github.com/mcpjungle/MCPJungle) | MCP | Self-hosted MCP gateway: register your MCP servers once and connect Claude to a single endpoint. Holds the credentials for those servers. |
 
 ### Quality & Token Saving
 
@@ -220,6 +223,8 @@ Stop the agent forgetting everything between sessions.
 | [graphify](https://github.com/Graphify-Labs/graphify) | skill | An open-source /graphify skill for Claude Code that turns code, docs, schemas and PDFs into a queryable knowledge graph. |
 | [mempalace](https://github.com/MemPalace/mempalace) | MCP | A free, local-first memory system that stores conversation history verbatim and retrieves it by semantic search through Claude Code hooks and an MCP server. |
 | [dbhub](https://github.com/bytebase/dbhub) | MCP | A minimal, token-efficient MCP server that lets Claude explore and query PostgreSQL, MySQL, MariaDB, SQL Server, Oracle and SQLite databases. Runs SQL against the databases you point it at; read-only mode is available. |
+| [GitNexus](https://github.com/abhigyanpatwari/GitNexus) | MCP | Indexes a repo into a knowledge graph and exposes it to Claude Code through MCP, skills and hooks. Free for noncommercial use only (PolyForm Noncommercial); commercial use needs a paid licence. |
+| [ai-memory](https://github.com/akitaonrails/ai-memory) | MCP | Shared long-term memory layer that lets Claude Code sessions keep and hand off context across tools. Stores session memory locally. |
 
 ### Browser & Web Access
 
