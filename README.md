@@ -13,7 +13,8 @@ A community-maintained list of skills, plugins, MCP servers and rule files for C
 - **[Design](#design)**: [UI](#ui) · [Diagrams](#diagrams) · [Logo & Brand](#logo--brand) · [Web Animation & 3D](#web-animation--3d)
 - **[Marketing](#marketing)**: [SEO](#seo) · [Social Content](#social-content) · [Sales Outreach](#sales-outreach)
 - **[Dev](#dev)**: [Workflow & Planning](#workflow--planning) · [Quality & Token Saving](#quality--token-saving) · [Memory & Context](#memory--context) · [Browser & Web Access](#browser--web-access) · [Docs Lookup](#docs-lookup)
-- **[Games](#games)**: [Effects & Mods](#effects--mods)
+- **[Games](#games)**: [Game Dev](#game-dev) · [Modding](#modding)
+- **[Writing](#writing)**: [Research Writing](#research-writing)
 - **[Career](#career)**: [Job Search](#job-search)
 - **[Discovery](#discovery)**: [Skill & Plugin Directories](#skill--plugin-directories)
 - **[Standalone](#standalone)**: [Media Tools](#media-tools) · [Local Models & OCR](#local-models--ocr) · [Apps, Agents & Examples](#apps-agents--examples)
@@ -243,17 +244,36 @@ Give the agent current library documentation instead of stale training data.
 
 ## Games
 
-### Effects & Mods
+### Game Dev
+
+Build a game: engine skills, MCP servers and a full studio workflow.
 
 | Name | Type | What it does |
 |---|---|---|
 | [pixelfx](https://github.com/patch-gg/pixelfx) | library + skill | A library of 244 pixel-art effects and animations (fire, explosions, magic, weather, UI) that are each drawn from code, plus a Claude Code skill for making new ones. |
-| [coop-anything](https://github.com/cranebeaker/coop-anything) | agent playbook | Agent playbook: tell Claude which single-player game you own and it researches, builds or fixes a co-op mod, tests it with bots, and packages it so friends join over Steam. |
 | [awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | plugin | 77 game-development skills (Godot, Unity, Unreal and more) in SKILL.md format, with a router skill. |
 | [godot-mcp](https://github.com/Coding-Solo/godot-mcp) | MCP | Lets Claude launch the Godot editor, run projects and read debug output. |
+| [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | skill + agents | Turns a Claude Code session into a game studio with 49 specialised agents, 70+ workflow skills, hooks and rules covering design, programming, art, audio, QA and production. MIT licensed. |
 
-> Needs more entries: mods, level design and asset-generation tools.
+### Modding
 
+Change or extend a game you already own. Different job from building one.
+
+| Name | Type | What it does |
+|---|---|---|
+| [coop-anything](https://github.com/cranebeaker/coop-anything) | agent playbook | Agent playbook: tell Claude which single-player game you own and it researches, builds or fixes a co-op mod, tests it with bots, and packages it so friends join over Steam. |
+
+[↑ Contents](#contents)
+
+## Writing
+
+### Research Writing
+
+Polish, translate and review academic papers.
+
+| Name | Type | What it does |
+|---|---|---|
+| [awesome-ai-research-writing](https://github.com/Leey21/awesome-ai-research-writing) | list | Prompt templates (translating, polishing, shortening, reviewer-style checks) and agent skills for writing research papers; the README is in Chinese. |
 
 [↑ Contents](#contents)
 
