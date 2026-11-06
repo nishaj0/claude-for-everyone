@@ -105,6 +105,7 @@ Make agents produce better-looking interfaces.
 | [garden-skills](https://github.com/ConardLi/garden-skills) | skill | A free MIT-licensed collection of skills for web design, image generation, video and knowledge-base retrieval, tested with Claude Code and Claude.ai. |
 | [hallmark](https://github.com/Nutlope/hallmark) | skill | A free MIT-licensed design skill from Together AI that helps Claude Code build web pages that do not look AI-generated. |
 | [skills](https://github.com/jakubkrehel/skills) | skill | A free MIT-licensed collection of skills for reviewing and building interfaces, covering accessibility, layout, typography, color and writing, installable as a Claude Code plugin. |
+| [unslop](https://github.com/heydamir/unslop) | skill | Claude Code skill that audits vibecoded, AI-looking UI and redesigns it pass by pass into a more distinctive interface. CC-BY-4.0; optional image generation asks before each paid call. |
 
 ### Diagrams
 
@@ -225,6 +226,7 @@ Stop the agent forgetting everything between sessions.
 | [dbhub](https://github.com/bytebase/dbhub) | MCP | A minimal, token-efficient MCP server that lets Claude explore and query PostgreSQL, MySQL, MariaDB, SQL Server, Oracle and SQLite databases. Runs SQL against the databases you point it at; read-only mode is available. |
 | [GitNexus](https://github.com/abhigyanpatwari/GitNexus) | MCP | Indexes a repo into a knowledge graph and exposes it to Claude Code through MCP, skills and hooks. Free for noncommercial use only (PolyForm Noncommercial); commercial use needs a paid licence. |
 | [ai-memory](https://github.com/akitaonrails/ai-memory) | MCP | Shared long-term memory layer that lets Claude Code sessions keep and hand off context across tools. Stores session memory locally. |
+| [floorplan](https://github.com/haydenschmitty/floorplan) | plugin | Claude Code plugin that has Claude read your codebase and draw an interactive plain-English map of its parts, files and connections. Runs locally on your existing Claude plan. |
 
 ### Browser & Web Access
 
@@ -263,6 +265,7 @@ Build a game: engine skills, MCP servers and a full studio workflow.
 | [awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | plugin | 77 game-development skills (Godot, Unity, Unreal and more) in SKILL.md format, with a router skill. |
 | [godot-mcp](https://github.com/Coding-Solo/godot-mcp) | MCP | Lets Claude launch the Godot editor, run projects and read debug output. |
 | [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | skill + agents | Turns a Claude Code session into a game studio with 49 specialised agents, 70+ workflow skills, hooks and rules covering design, programming, art, audio, QA and production. MIT licensed. |
+| [sprite-gen](https://github.com/aldegad/sprite-gen) | skill | Claude skill and Python CLI that turns one base image into clean transparent game sprite atlases and animation loops. Uses your own image/video provider keys, so generation can cost money. |
 
 ### Modding
 
@@ -377,6 +380,7 @@ Full products, separate agents and demo projects. Useful, but you run them yours
 | [whatsapp-mcp](https://github.com/lharries/whatsapp-mcp) | MCP | An MIT-licensed MCP server that connects your personal WhatsApp account to Claude so it can search, read and send messages. Sends messages from your WhatsApp account. |
 | [cua](https://github.com/trycua/cua) | app | Open-source infrastructure for computer-use agents (desktop-app driver, local VMs, sandboxes), with a Claude Code integration. Freemium: the hosted Spaces app has paid tiers. The agents control desktop apps, so review before running. |
 | [agent-desktop](https://github.com/vercel-labs/agent-desktop) | CLI | Apache-2.0 CLI from Vercel Labs that lets an AI agent see and operate desktop apps on macOS, Windows and Linux through the accessibility tree. Works with any agent that can run shell commands; it doesn't mention Claude by name. Snapshots can contain private desktop content. |
+| [rea](https://github.com/morluto/rea) | MCP | MCP server for reverse engineering binaries, apps and runtime behavior, with Claude Code setup. Launches local analysis tools, so treat it as code-executing and security-sensitive. |
 
 
 [↑ Contents](#contents)
